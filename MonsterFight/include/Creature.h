@@ -18,15 +18,13 @@ class Creature
         bool isDead();
         void addGold(int amount);
 
-    protected:
 
-    private:
+    protected:
         std::string m_name{};
         char m_symbol{};
         int m_health{};
         int m_damagePerAttack{};
         int m_gold{};
-
 };
 
 #endif // CREATURE_H

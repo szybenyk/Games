@@ -1,4 +1,4 @@
-#include "../include/Creature.h"
+#include "Creature.h"
 
 Creature::Creature(const std::string& name, char symbol, int health, int damagePerAttack, int gold)
     : m_name{ name }, m_symbol{ symbol }, m_health{ health }, m_damagePerAttack{ damagePerAttack }, m_gold{ gold }

@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-#include "include/Creature.h"
+#include "Creature.h"
 #include "Player.h"
 
 

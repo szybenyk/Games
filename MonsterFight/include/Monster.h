@@ -22,6 +22,13 @@ class Monster : public Creature
         Monster(const Type type);
 
 
+        static const Monster getRandomMonster()
+        {
+            int num{ getRandomNumber( 0, static_cast<int>(Type::max_types) - 1) };
+            return Monster{ static_cast<Type>(num) };
+        }
+
+
     private:
         static const Creature& getDefaultCreature(Type type)
         {

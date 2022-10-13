@@ -11,7 +11,7 @@ class Creature
         const std::string& getName() const;
         char getSymbol() const;
         int getHealth() const;
-        int getDamagePerAttaack() const;
+        int getDamagePerAttack() const;
         int getGold() const;
 
         void reduceHealth(int amount);

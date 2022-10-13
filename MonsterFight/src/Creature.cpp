@@ -20,7 +20,7 @@ int Creature::getHealth() const
     return m_health;
 }
 
-int Creature::getDamagePerAttaack() const
+int Creature::getDamagePerAttack() const
 {
     return m_damagePerAttack;
 }
